@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/information/information",
+    "pages/help/help",
+    "pages/community/community",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "医保一点通",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#cc1004",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "咨询",
+        "iconPath": "pages/images/8.png",
+        "selectedIconPath": "pages/images/4.png"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "text": "医疗帮助",
+        "iconPath": "pages/images/7.png",
+        "selectedIconPath": "pages/images/3.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "pages/images/5.png",
+        "selectedIconPath": "pages/images/1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/6.png",
+        "selectedIconPath": "pages/images/2.png"
+      }
+    ]
+  }
+}
