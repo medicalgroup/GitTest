@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      helpWindows:[
+        { id :1, image: '../images/17.png', title: '各医保局受理业务窗口的实时状态' },
+        { id: 2, image: '../images/19.png', title: '广州市医保制定医院/药店查询' },
+        { id: 3, image: '../images/18.png', title: '异地就医' },
+        
+      ]
   },
 
   /**

@@ -1,2 +1,9 @@
-<!--pages/help/help.wxml-->
-<text>pages/help/help.wxml</text>
+<view class='content' wx:for="{{helpWindows}}">
+  <view class='hr'></view>
+  <view class='window'>
+    <view><image src='{{item.image}}'></image></view>
+    <hr/>
+    <text>{{item.title}}</text>
+  </view>
+  <view class='hr'></view>
+</view>
