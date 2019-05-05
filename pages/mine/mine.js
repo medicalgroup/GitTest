@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    select: false,
+    tihuoWay: '学生'
   },
 
   /**
@@ -14,6 +15,7 @@ Page({
   onLoad: function (options) {
 
   },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成

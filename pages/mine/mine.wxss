@@ -1,1 +1,193 @@
-/* pages/mine/mine.wxss */
+.content{
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.top{
+  width: 100%;
+  height: 250px;
+  background-color: gray;
+  
+}
+.top_detail{
+  display: flex;
+}
+.img image{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.identity{
+  color: white;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.hr{
+  width: 100px;
+  height: 3px;
+  background-color: rgb(240, 224, 224);
+  margin: 5px 0 5px 0;
+}
+.signIn{
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+  border-radius: 50px 0 0 50px;
+  position: absolute;
+  right:0;
+  top: 30px;
+  color: darkcyan; 
+  text-align: center;
+}
+.top_count{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.collect{
+  width: 25%;
+}
+.share{
+  width: 25%;
+}
+.comment{
+  width: 25%;
+}
+.attention{
+  width: 25%;
+}
+.purse{
+  width: 90%;
+  height: 120px;
+  background-color: white;
+  margin: -40px auto;
+  border-radius: 15px;
+}
+.purse_top{
+  color: rgb(7, 7, 180);
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.purse_bottom{
+  display: flex;
+  font-size: 26px;
+  padding-left: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.balance{
+  display: flex;
+  width: 50%;
+}
+.balance view:nth-child(2){
+  color: rgb(7, 7, 180);
+  padding-left: 20px;
+}
+.gold{
+  display: flex;
+  width: 50%;
+}
+.gold view:nth-child(2){
+  color: rgb(7, 7, 180);
+  padding-left: 20px;
+}
+.medical{
+  width: 90%;
+  height: 160px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+.medical_top{
+  display: flex;
+  width: 80%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+.medical_top view:nth-child(1){
+  border-right: 1px solid rgb(235, 212, 212);
+  border-bottom: 1px solid rgb(235, 212, 212);
+  text-align: center;
+  width: 50%;
+}
+.medical_top view:nth-child(2){
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid rgb(235, 212, 212);
+}
+.medical_bottom{
+  display: flex;
+  width: 80%;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 10%;
+}
+.medical_bottom view:nth-child(1){
+  border-right: 1px solid rgb(235, 212, 212);
+  width: 50%;
+}
+.medical_bottom view:nth-child(2){
+  width: 50%;
+}
+.partition{
+  width: 90%;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  margin: -40px auto;
+  display: flex;
+  flex-direction: row;
+}
+.partition image{
+  width: 50px;
+  height: 40px;
+  margin: 20px 20px 5px 20px;
+}
+.partition view{
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+.list{
+  width: 90%;
+  height: 140px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 50px auto 0 auto;
+  flex-direction: row;
+  font-size: 20px;
+}
+.message{
+  width: 80%;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  margin: 20px auto 0 auto;
+  border-bottom: 1px solid rgb(235, 212, 212);
+}
+.message view:nth-child(2){
+  position: absolute;
+  right: 10%;
+}
+.setting{
+  width: 80%;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  margin: 0 auto;
+}
+.setting view:nth-child(2){
+  position: absolute;
+  right: 10%;
+}

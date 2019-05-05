@@ -1,2 +1,87 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class='content'>
+  <view class='top'>
+    <view class='top_detail'>
+      <view class='img'>
+        <image src='../images/24.png'></image>
+      </view>
+      <view class='identity'>
+        <view>昵称</view>
+        <view class='hr'></view>
+        <view>学生</view>
+      </view>
+      <view class='signIn'>
+        签到领+50金币
+      </view>
+    </view>
+    <view class='top_count'>
+      <view class='collect'>
+        <view>0</view>
+        <view>收藏</view>
+      </view>
+      <view class='share'>
+        <view>0</view>
+        <view>分享</view>
+      </view>
+      <view class='comment'>
+        <view>0</view>
+        <view>评论</view>
+      </view>
+      <view class='attention'>
+        <view>0</view>
+        <view>关注</view>
+      </view>
+    </view>
+  </view>
+  <view class='purse'>
+    <view class='purse_top'>
+      我的钱包
+    </view>
+    <view class='purse_bottom'>
+      <view class='balance'>
+        <view>余额</view><view>0</view>
+      </view>
+      <view class='gold'>
+        <view>金币</view><view>0</view>
+      </view>
+    </view>
+  </view>
+  <view class='medical'>
+    <view class='medical_top'>
+      <view>我的医保卡</view>
+      <view>参保改保</view>
+    </view>
+    <view class='medical_bottom'>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view class='partition'>
+    <view>
+      <view><image src='../images/35.png'></image></view>
+      <text>浏览</text>
+    </view>
+    <view>
+      <view><image src='../images/34.png'></image></view>
+      <text>有奖调查</text>
+    </view>
+    <view>
+      <view><image src='../images/33.png'></image></view>
+      <text>福利专区</text>
+    </view>
+    <view>
+      <view><image src='../images/32.png'></image></view>
+      <text>浏览</text>
+    </view>
+  </view>
+  <view class='list'>
+    <view class='message'>
+      <view>我的消息</view>
+      <view>>></view>
+    </view>
+    <view class='setting'>
+      <view>设置</view>
+      <view>>></view>
+    </view>
+  </view>
+  <view style='height:20px;background-color:#f0f0f0;'></view>
+</view>
