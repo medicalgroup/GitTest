@@ -76,11 +76,11 @@
   <view class='list'>
     <view class='message'>
       <view>我的消息</view>
-      <view>>></view>
+      <view><image src='./../images/16.png'></image></view>
     </view>
-    <view class='setting'>
+    <view class='setting' bindtap='toSetting'>
       <view>设置</view>
-      <view>>></view>
+      <view><image src='./../images/16.png'></image></view>
     </view>
   </view>
   <view style='height:20px;background-color:#f0f0f0;'></view>

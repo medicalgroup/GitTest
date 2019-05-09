@@ -1,0 +1,30 @@
+.content{
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.hr{
+  background-color: #f0f0f0;
+  height: 3px;
+}
+.list{
+   width: 98%;
+  height: 60px;
+  line-height: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.list view:nth-child(1){
+  padding-left: 10px;
+}
+.list view:nth-child(2){
+  position: absolute;
+  right: 10%;
+}
+.list image{
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+}

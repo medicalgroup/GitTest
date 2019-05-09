@@ -5,7 +5,8 @@
     "pages/information/information",
     "pages/help/help",
     "pages/community/community",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/setting/setting"
   ],
   "window":{
     "backgroundTextStyle":"light",
