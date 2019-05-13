@@ -6,7 +6,7 @@
   height: 200px;
   text-align: center;
   display: block;
-  
+  background-color: white;
 }
 .window image{
   width: 180px;

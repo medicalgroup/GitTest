@@ -6,7 +6,10 @@
     "pages/help/help",
     "pages/community/community",
     "pages/mine/mine",
-    "pages/setting/setting"
+    "pages/mine/setting/setting",
+    "pages/mine/setting/fontSize/fontSize",
+    "pages/mine/setting/grade/grade",
+    "pages/mine/setting/aboutUs/aboutUs"
   ],
   "window":{
     "backgroundTextStyle":"light",

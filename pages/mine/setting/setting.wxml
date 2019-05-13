@@ -1,0 +1,39 @@
+<view class="content">
+  <view class='hr'></view>
+  <view class='list' bindtap='toFontSize'>
+    <view>
+      阅读字号
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list'>
+    <view>
+      护眼模式
+    </view>
+    <view class='switch'>
+      <switch bindchange=''></switch>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list' bindtap='toGrade'>
+    <view>
+      评分
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list'>
+    <view>
+      关于我们
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>

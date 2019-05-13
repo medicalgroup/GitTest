@@ -16,8 +16,20 @@
   font-size: 20px;
   margin: 0 auto;
 }
+.big{
+  font-size: 30px;
+}
+.middle{
+  font-size: 26px;
+}
+.normal{
+  font-size: 22px;
+}
+.small{
+  font-size: 18px;
+}
 .list view:nth-child(1){
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .list view:nth-child(2){
   position: absolute;

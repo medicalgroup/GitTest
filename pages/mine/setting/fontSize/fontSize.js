@@ -1,4 +1,4 @@
-// pages/mine/setting/setting.js
+// pages/setting/fontSize/fontSize.js
 Page({
 
   /**

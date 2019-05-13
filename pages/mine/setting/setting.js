@@ -1,26 +1,29 @@
-// pages/mine/mine.js
+// pages/mine/setting/setting.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    select: false,
-    tihuoWay: '学生'
-  },
-  toSetting:function(){
-    wx.navigateTo({
-      url: './setting/setting',
-    })
+
   },
 
+  toFontSize: function () {
+    wx.navigateTo({
+      url: './fontSize/fontSize',
+    })
+  },
+  toGrade:function(){
+    wx.navigateTo({
+      url: './grade/grade',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成
