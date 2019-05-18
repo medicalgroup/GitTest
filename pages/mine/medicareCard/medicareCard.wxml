@@ -1,0 +1,39 @@
+
+<view class="content">
+  <view class='hr'></view>
+  <view class='medicareCard' bindtap='toFontSize'>
+    <view>
+      医保卡：5548xxxxxxxxxx
+    </view>
+    <view class='unbind'>
+      解绑
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list'>
+    <view>
+      绑定医保卡
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list'>
+    <view>
+      在线缴费
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='list'>
+    <view>
+      在线定点
+    </view>
+    <view>
+      <image src='../../images/16.png'></image>
+    </view>
+  </view>
+</view>

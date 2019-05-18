@@ -1,0 +1,76 @@
+.content{
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.both{
+  width: 48%;
+  background-color: rgb(121, 211, 191);
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+.top{
+  width: 150px;
+  margin: 10px auto;
+}
+.both humanWealth top image{
+  margin: 10px auto;
+}
+/* .all{
+  width: 49%;
+  background-color: rgb(121, 211, 191);
+  margin-left: 2%;
+  margin-top: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+} */
+.humanWealthBottom{
+  padding: 10px 0 10px 10px;
+  background-color: white;
+  
+}
+.name{
+  font-weight: bold;
+}
+.humanWealthPrice{
+  display: flex;
+  font-size: 14px;
+}
+.humanWealthPrice view:nth-child(1){
+  color: gray;
+  font-size: 18px;
+  position: relative;
+  flex: 1;
+}
+.humanWealthPrice view:nth-child(2){
+  border: 2px solid red;
+  background-color: rgba(243, 175, 93, 0.459);
+  color: red;
+  padding: 3px;
+  position: relative;
+  margin-right: 3px;
+}
+
+/* .coverageBottom{
+  padding: 10px 0 10px 10px;
+  background-color: white;
+}
+.coverageBottom text:nth-child(1){
+  font-weight: bold;
+}
+.coveragePrice{
+  display: flex;
+  font-size: 14px;
+}
+.coveragePrice view:nth-child(1){
+  color: gray;
+  font-size: 18px;
+}
+.coveragePrice view:nth-child(2){
+  border: 2px solid rgb(80, 240, 80);
+  background-color: rgba(213, 255, 98, 0.288);
+  color: rgb(80, 240, 80);
+  margin-left: 25%;
+  padding: 3px;
+} */

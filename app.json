@@ -9,7 +9,9 @@
     "pages/mine/setting/setting",
     "pages/mine/setting/fontSize/fontSize",
     "pages/mine/setting/grade/grade",
-    "pages/mine/setting/aboutUs/aboutUs"
+    "pages/mine/setting/aboutUs/aboutUs",
+    "pages/mine/medicareCard/medicareCard",
+    "pages/mine/joinMedic/joinMedic"
   ],
   "window":{
     "backgroundTextStyle":"light",

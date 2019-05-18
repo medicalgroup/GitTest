@@ -13,6 +13,17 @@ Page({
       url: './setting/setting',
     })
   },
+  toMedicareCard: function () {
+    wx.navigateTo({
+      url: './medicareCard/medicareCard',
+    })
+  },
+  toJoinMedic: function () {
+    wx.navigateTo({
+      url: './joinMedic/joinMedic',
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

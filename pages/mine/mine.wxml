@@ -47,8 +47,8 @@
   </view>
   <view class='medical'>
     <view class='medical_top'>
-      <view>我的医保卡</view>
-      <view>参保改保</view>
+      <view bindtap='toMedicareCard'>我的医保卡</view>
+      <view bindtap='toJoinMedic'>参保改保</view>
     </view>
     <view class='medical_bottom'>
       <view></view>
@@ -68,10 +68,10 @@
       <view><image src='../images/33.png'></image></view>
       <text>福利专区</text>
     </view>
-    <view>
+    <!-- <view>
       <view><image src='../images/32.png'></image></view>
       <text>浏览</text>
-    </view>
+    </view> -->
   </view>
   <view class='list'>
     <view class='message'>
