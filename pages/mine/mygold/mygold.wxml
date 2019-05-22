@@ -1,0 +1,49 @@
+<view class='content'>
+  <view class='getGold'>
+    <view class='hr'></view>
+    <view class='allGold'>
+      <view>
+        <image src='../../images/29.png'></image>
+      </view>
+      <view>
+        500金币
+      </view>
+    </view>
+    <view class='todayGold'>
+      <view>今日已得：100金币</view>
+      <view class='button'>提现</view>
+    </view>
+    <view class='hr'></view>
+  </view>
+  <view class='task'>
+    <text class='title'>每日金币任务</text>
+    <view class='signIn'>
+      <view class='circle_1'></view>
+      <view>签到</view>
+      <view class='line'></view>
+      <view>50/50</view>
+    </view>
+    <view class='signIn'>
+      <view class='circle_2'></view>
+       <view>阅读</view>
+      <view class='line'></view>
+      <view>0/100</view>
+    </view>
+    <view class='signIn'>
+      <view class='circle_3'></view>
+      <view>分享</view>
+      <view class='line'></view>
+      <view>0/100</view>
+    </view>
+    <view class='signIn'>
+      <view class='circle_4'></view>
+      <view>充值</view>
+    </view>
+  </view>
+  <view class="goldUse">
+    <view class='title'>金币流法</view>
+    <view>提现</view>
+    <view>打赏</view>
+    <view>兑换奖品</view>
+  </view>
+</view>

@@ -1,0 +1,158 @@
+page{
+  background-color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  background: #ccc;
+  height: 5rpx;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0px 10px 10px;
+}
+
+.img {
+  width: 22px;
+  height: 18px;
+  margin-top: 5px
+}
+
+.img1 {
+  margin-left: -50px;
+
+}
+
+.img2 {
+  position: absolute;
+  right: 100px;
+}
+
+.img3 {
+  position: absolute;
+  right: 60px;
+}
+
+.img4 {
+  position: absolute;
+  right: 10px;
+  height: 24px;
+  width: 16px;
+}
+
+.hr1 {
+  border-left: 2px solid rgb(112, 112, 112);
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  margin: auto 0rpx auto 20rpx;
+}
+
+.hr2 {
+  border-left: 2px solid rgb(112, 112, 112);
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  position: absolute;
+  right: 10px;
+}
+
+.search input {
+  height: 100%;
+  width: 480rpx;
+  font-size: 30rpx;
+  margin-top: 5px;
+}
+
+.loginTitle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+swiper {
+  width: 100%;
+  height:200px;
+}
+
+.select {
+  font-size: 18px;
+  color: black;
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5rpx;
+  border-bottom: 10rpx solid #4f8f8b;
+}
+
+.default {
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+}
+
+.hr3 {
+  background: #ccc;
+  height: 20rpx;
+}
+
+.hr4 {
+  background: #ccc;
+  height: 20rpx;
+  margin-top: 15px;
+}
+
+.text1 {
+  position: absolute;
+  margin-top: -40px;
+  left: 5%;
+  color: #fff;
+}
+
+.yuedu {
+  opacity: 0.5;
+  font-size: 15px;
+  margin-top: -25px;
+  position: absolute;
+  right: 10px;
+}
+
+.list-item image {
+  width: 100%;
+  height: 180px;
+}
+
+.list-like {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.list-content image {
+  height: 20px;
+  width: 20px;
+  padding-left: 20px;
+}
+
+.list-like text {
+  opacity: 0.5;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.hr5 {
+  background: #ccc;
+  height: 20rpx;
+  margin-top: -9rpx
+}

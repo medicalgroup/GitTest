@@ -1,2 +1,69 @@
 <!--pages/community/community.wxml-->
-<text>pages/community/community.wxml</text>
+<view class='content'>
+  <view class='hr'></view>
+  <view class='header'>
+    <view class='img'>
+      <image src="/pages/images/24.png"></image>
+    </view>
+    <view class='text'>
+      <text>医保社区</text>
+    </view>
+    <view class='img' bindtap="dynamicdown">
+      <image src="/pages/images/25.png"></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <view class="center">
+    <view class='default'>
+    <button class='btn' open-type="contact">在线咨询</button>
+   </view>
+      <view class='default'bindtap="assistancedown">法律援助</view>
+    </view>
+    <view wx:for="{{medical}}" wx:for-item="item" wx:for-index="index" wx:key="*">
+      <view class="center">
+        <view class='img1'>
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class='pinglun'>
+          <view class='name'>
+            <view class='center'>
+              <view class='text1'>
+                <text>{{item.author}}</text>
+              </view>
+              <view class='time'>
+                <text>{{item.dateTime}}</text>
+              </view>
+            </view>
+            <view>
+              <text>{{item.detailTitle}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='list'>
+          <view  class="list-like"bindtap="onCommentTap" data-cook-id="{{item.cookId}}">
+            <image src='/pages/images/13.png'></image>
+            <text>{{item.commentNum}}</text>
+          </view>
+          <view class="list-like"bindtap="onUpTap" data-cook-id="{{item.cookId}}">
+            <image wx:if="{{item.upStatus}}" src='/pages/images/40.png'></image>
+            <image wx:else src='/pages/images/14.png'></image>
+            <text>{{item.upNum}}</text>
+          </view>
+          <view class="list-like" bindtap="onCollectionTap"data-curIndex="{{index}}">
+            <image wx:if="{{item.collectionStatus}}" src='/pages/images/41.png'></image>
+            <image wx:else src='/pages/images/12.png'></image>
+            <text>{{item.collectionNum}}</text>
+          </view>
+          <view class='list-like'>
+          <button class="button"id="shareBtn" open-type="share"  hover-class='none'>
+          <image src="/pages/images/27.png"></image>
+          </button>
+        </view>
+        </view>
+        <view class='hr1'></view>
+      </view>
+
+  </view>
+</view>

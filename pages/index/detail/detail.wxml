@@ -1,0 +1,86 @@
+<!--pages/index/detail/detail.wxml-->
+<view class='comment-detail-box'>
+  <view class='comment-main-box'>
+    <view class='content'>
+      <view class='tap'>
+        <view class="top">
+          <text>{{item.title}}</text>
+        </view>
+        <view class='title'>
+          <view class='author'>
+            <text>{{item.author}}</text>
+          </view>
+          <view>
+            <text>{{item.dateTime}}</text>
+          </view>
+        </view>
+        <view class='til'>
+          <text>{{item.detailTitle}}</text>
+        </view>
+        <view class='til little'>
+          <text>{{item.detailLittle1}}</text>
+        </view>
+        <view class="til">
+          <text>{{item.detail1}}</text>
+        </view>
+        <view class="til">
+          <text>{{item.detail2}}</text>
+        </view>
+        <view class='img'>
+          <image src='{{item.detailImg1}}'></image>
+        </view>
+        <view class='til little'>
+          <text>{{item.detailLittle2}}</text>
+        </view>
+        <view class="til">
+          <text>{{item.detail3}}</text>
+        </view>
+        <view class="til">
+          <text>{{item.detail4}}</text>
+        </view>
+        <view class='img'>
+          <image src='{{item.detailImg2}}'></image>
+        </view>
+        <view class='til little'>
+          <text>{{item.detailLittle3}}</text>
+        </view>
+        <view class="til">
+          <text>{{item.detail5}}</text>
+        </view>
+        <view class='img'>
+          <image src='{{item.detailImg3}}'></image>
+        </view>
+        <view class="til">
+          <text>{{item.detail6}}</text>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom">
+    <view class="bottom-content">
+      <view class="list">
+        <view class='list-content' bindtap="commentdown">
+          <image src='/pages/images/13.png'></image>
+          <text>{{item.commentNum}}</text>
+        </view>
+        <view class='list-content' bindtap='onUpTap' data-cook-id="{{item.cookId}}">
+          <image wx:if="{{item.upStatus}}" src='/pages/images/40.png'></image>
+          <image wx:else src='/pages/images/14.png'></image>
+          <text>{{item.upNum}}</text>
+        </view>
+        <view class='list-content' bindtap='onCollectionTap' data-cook-id="{{item.cookId}}">
+          <image wx:if="{{item.collectionStatus}}" src='/pages/images/41.png'></image>
+          <image wx:else src='/pages/images/12.png'></image>
+          <text>{{item.collectionNum}}</text>
+        </view>
+        <view class='list-content' bindtap="onShareAppMessage">
+        <button class="button"id="shareBtn" open-type="share"  hover-class='none'>
+          <image src="/pages/images/27.png"></image>
+          </button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

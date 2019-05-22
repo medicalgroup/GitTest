@@ -11,7 +11,14 @@
     "pages/mine/setting/grade/grade",
     "pages/mine/setting/aboutUs/aboutUs",
     "pages/mine/medicareCard/medicareCard",
-    "pages/mine/joinMedic/joinMedic"
+    "pages/mine/joinMedic/joinMedic",
+    "pages/mine/collect/collect",
+    "pages/mine/mygold/mygold",
+    "pages/index/detail/detail",
+    "pages/index/comment/comment",
+    "pages/community/consultation/consultation",
+    "pages/community/assistance/assistance",
+    "pages/community/dynamic/dynamic"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -50,5 +57,6 @@
         "selectedIconPath": "pages/images/2.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

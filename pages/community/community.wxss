@@ -1,1 +1,117 @@
-/* pages/community/community.wxss */
+page{
+  background-color: white;
+}
+.hr {
+  background-color: #f0f0f0;
+  height: 5px;
+}
+
+.content {
+  width: 100%;
+}
+
+.header {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: #fff;
+  margin-top: -8px;
+  font-size: 16px;
+}
+
+.btn::after {
+  border: none;
+}
+
+.img image {
+  width: 22px;
+  height: 20px;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.default {
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+  height: 35px;
+  border-bottom: 5px solid #4f8f8b;
+}
+
+.img1 image {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.pinglun {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 15px 0px 15px;
+  font-size: 15px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time {
+  position: absolute;
+  right: 19px;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10px;
+}
+
+.list-like image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.hr1 {
+  background-color: #f0f0f0;
+  height: 5px;
+  margin-top: 40px;
+}
+
+.list-like text {
+  margin-right: 20px;
+}
+
+button::after {
+  border: none;
+}
+
+.button {
+  background-color: #fff;
+  height: 30px;
+}

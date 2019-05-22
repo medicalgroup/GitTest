@@ -1,3 +1,119 @@
-<view>
-  
+<view class='content'>
+  <view class='hr'></view>
+  <view class='search'>
+    <image class="img img1" src="/pages/images/15.png"></image>
+    <view class='hr1'></view>
+    <input type='text' placeholder="搜索">
+    </input>
+    <image class="img img2" src='/pages/images/11.png'></image>
+    <image class='img img3' src="/pages/images/10.png"></image>
+    <view class='hr2'></view>
+    <image class="img4" src="/pages/images/9.png"></image>
+  </view>
+  <view class='hr'></view>
+  <view class="loginTitle">
+    <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">推荐</view>
+    <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">热榜</view>
+  </view>
+  <view class='hr'></view>
+  <swiper current="{{currentTab}}" style="height:{{winHeight+1800}}px">
+    <swiper-item>
+      <view>
+        <swiper catchtap="onSwiperTap" indicator-dots="{{indicatorDots}}" indicator-color="#ffffff" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <swiper-item>
+            <image data-cook-id="1" src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" class='swiper'></image>
+          </swiper-item>
+          <swiper-item>
+            <image data-cook-id="2" src='https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640' class='swiper'></image>
+          </swiper-item>
+          <swiper-item>
+            <image data-cook-id="3" src='https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640' class='swiper'></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class='hr3'></view>
+
+      <view wx:for="{{medical}}" wx:for-item="item" wx:for-index="index" wx:key="*">
+        <view class='hr4'></view>
+        <view class='list-item' bindtap="detaildown" data-cook-id="{{item.cookId}}">
+          <image src="{{item.img}}"></image>
+
+          <view class="text1">
+            <text>{{item.title}}</text>
+          </view>
+          <view class='hr5'></view>
+          <view class='list'>
+            <view class="list-like">
+              <view class='list-content'>
+                <image src='/pages/images/13.png'></image>
+                <text>{{item.commentNum}}</text>
+              </view>
+              <view class='list-content' data-cook-id="{{item.cookId}}">
+                <image wx:if="{{item.upStatus}}" src='/pages/images/40.png'></image>
+                <image wx:else src='/pages/images/14.png'></image>
+                <text>{{item.upNum}}</text>
+              </view>
+              <view class='list-content' data-cook-id="{{item.cookId}}">
+                <image wx:if="{{item.collectionStatus}}" src='/pages/images/41.png'></image>
+                <image wx:else src='/pages/images/12.png'></image>
+                <text>{{item.collectionNum}}</text>
+              </view>
+            </view>
+            <view class='yuedu'>
+              <text>阅读量：{{item.readingNum}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <swiper indicator-dots="{{indicatorDots}}" indicator-color="#ffffff" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <swiper-item>
+            <image src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" class='swiper'></image>
+          </swiper-item>
+          <swiper-item>
+            <image src='https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640' class='swiper'></image>
+          </swiper-item>
+          <swiper-item>
+            <image src='https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640' class='swiper'></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class='hr3'></view>
+
+      <view wx:for="{{medical}}" wx:for-item="item" wx:for-index="index" wx:key="*">
+        <view class='hr4'></view>
+        <view class='list-item' bindtap="detaildown" data-cook-id="{{item.cookId}}">
+          <image src="{{item.img}}"></image>
+
+          <view class="text1">
+            <text>{{item.title}}</text>
+          </view>
+          <view class='hr5'></view>
+          <view class='list'>
+            <view class="list-like">
+              <view class='list-content' bindtap="commentdown">
+                <image src='/pages/images/13.png'></image>
+                <text>{{item.commentNum}}</text>
+              </view>
+              <view class='list-content' bindtap="onUpTap" data-cook-id="{{item.cookId}}">
+                <image wx:if="{{item.upStatus}}" src='/pages/images/40.png'></image>
+                <image wx:else src='/pages/images/14.png'></image>
+                <text>{{item.upNum}}</text>
+              </view>
+              <view class='list-content' bindtap="onCollectionTap" data-cook-id="{{item.cookId}}">
+                <image wx:if="{{item.collectionStatus}}" src='/pages/images/41.png'></image>
+                <image wx:else src='/pages/images/12.png'></image>
+                <text>{{item.collectionNum}}</text>
+              </view>
+            </view>
+            <view class='yuedu'>
+              <text>阅读量：{{item.readingNum}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
 </view>

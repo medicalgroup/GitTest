@@ -1,0 +1,39 @@
+.content{
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.hr{
+  background-color: #f0f0f0;
+  height: 3px;
+}
+.list{
+   width: 98%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 10px;
+}
+.title{
+  flex: 1;
+}
+.firstTitle{
+  display: flex;
+  font-size: 22px;  
+  height: 35px;
+line-height: 35px;
+}
+.firstTitle view:nth-child(2){
+  font-size: 16px;
+  margin-left: 20px;
+}
+.secondTitle{
+  font-size: 14px;
+}
+.collectImg image{
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}

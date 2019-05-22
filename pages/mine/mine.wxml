@@ -14,7 +14,7 @@
       </view>
     </view>
     <view class='top_count'>
-      <view class='collect'>
+      <view class='collect' bindtap='toCollect'>
         <view>0</view>
         <view>收藏</view>
       </view>
@@ -40,7 +40,7 @@
       <view class='balance'>
         <view>余额</view><view>0</view>
       </view>
-      <view class='gold'>
+      <view class='gold' bindtap='toMyGold'>
         <view>金币</view><view>0</view>
       </view>
     </view>

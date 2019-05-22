@@ -1,37 +1,11 @@
-// pages/mine/mine.js
+// pages/mine/mygold/mygold.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    select: false,
-    tihuoWay: '学生'
-  },
-  toSetting:function(){
-    wx.navigateTo({
-      url: './setting/setting',
-    })
-  },
-  toMedicareCard: function () {
-    wx.navigateTo({
-      url: './medicareCard/medicareCard',
-    })
-  },
-  toJoinMedic: function () {
-    wx.navigateTo({
-      url: './joinMedic/joinMedic',
-    })
-  },
-  toCollect:function(){
-    wx.navigateTo({
-      url: './collect/collect',
-    })
-  },
-  toMyGold:function(){
-    wx.navigateTo({
-      url: './mygold/mygold',
-    })
+
   },
 
   /**
@@ -40,7 +14,6 @@ Page({
   onLoad: function (options) {
 
   },
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成

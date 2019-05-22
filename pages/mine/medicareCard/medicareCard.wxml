@@ -1,4 +1,3 @@
-
 <view class="content">
   <view class='hr'></view>
   <view class='medicareCard' bindtap='toFontSize'>

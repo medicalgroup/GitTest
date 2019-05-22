@@ -1,37 +1,15 @@
-// pages/mine/mine.js
+// pages/mine/collect/collect.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    select: false,
-    tihuoWay: '学生'
-  },
-  toSetting:function(){
-    wx.navigateTo({
-      url: './setting/setting',
-    })
-  },
-  toMedicareCard: function () {
-    wx.navigateTo({
-      url: './medicareCard/medicareCard',
-    })
-  },
-  toJoinMedic: function () {
-    wx.navigateTo({
-      url: './joinMedic/joinMedic',
-    })
-  },
-  toCollect:function(){
-    wx.navigateTo({
-      url: './collect/collect',
-    })
-  },
-  toMyGold:function(){
-    wx.navigateTo({
-      url: './mygold/mygold',
-    })
+    collectDatas:[
+      { title: '医保新讯', date: '2019年5月8日', secondTitle: 'lorem ipsum dolor sit amet', image:'../../images/31.png'},
+      { title: '医保新讯', date: '2019年5月8日', secondTitle: 'lorem ipsum dolor sit amet', image: '../../images/31.png' },
+      { title: '医保新讯', date: '2019年5月8日', secondTitle: 'lorem ipsum dolor sit amet', image: '../../images/31.png' }
+    ]
   },
 
   /**
@@ -40,7 +18,6 @@ Page({
   onLoad: function (options) {
 
   },
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成

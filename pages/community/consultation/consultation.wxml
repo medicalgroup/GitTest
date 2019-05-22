@@ -1,0 +1,2 @@
+<!--pages/community/consultation/consultation.wxml-->
+<contact-button type="default-dark" size="20" session-from="weapp"></contact-button>

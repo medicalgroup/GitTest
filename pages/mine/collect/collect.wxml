@@ -1,0 +1,16 @@
+<view class="content" wx:for="{{collectDatas}}">
+  <view class='hr'></view>
+  <view class='list'>
+    <view class='title'>
+      <view class='firstTitle'>
+        <view>{{item.title}}</view>
+        <view>{{item.date}}</view>
+      </view>
+      <view class='secondTitle'>{{item.secondTitle}}</view>
+    </view>
+    <view class='collectImg'>
+      <image src='{{item.image}}'></image>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>

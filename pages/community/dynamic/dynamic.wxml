@@ -1,0 +1,54 @@
+<view class="top">
+  <view class="top-content">
+    <view class='list'>
+      <view class='list-content'>
+        <text>取消</text>
+      </view>
+      <view class='text'>
+        <text>发布动态</text>
+      </view>
+      <view class="list-content1">
+        <text>发布</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="input-box">
+    <view class="send-msg-box">
+      <view hidden="{{useKeyboardFlag}}" class="input-item">
+        <image src="/pages/images/keyboard.png" class="comment-icon keyboard-icon" catchtap="switchInputType"></image>
+        <input class="input speak-input {{recodingClass}}" value="按住说话" disabled="disabled" catchtouchstart="recordStart" catchtouchend="recordEnd"></input>
+      </view>
+      <view hidden="{{!useKeyboardFlag}}" class="input-item">
+        <image src="/pages/images/speak.png" class="comment-icon speak-icon" catchtap="switchInputType"></image>
+        <input class="input keyboard-input" value="{{keyboardInputValue}}" bindconfirm="submitComment" bindinput="bindCommentInput" placeholder="说点什么把......"></input>
+      </view>
+      <image class="comment-icon add-icon" src="/pages/images/25.png" catchtap="sendMoreMsg"></image>
+    </view>
+    <view class="send-more-box" hidden="{{!sendMoreMsgFlag}}">
+      <view class="send-more-btns-main">
+        <view class="more-btn-item" catchtap="chooseImage" data-category="album">
+          <view class="more-btn-main">
+            <image src="/pages/images/upload_image.png"></image>
+          </view>
+          <text>照片</text>
+        </view>
+        <view class="more-btn-item" catchtap="chooseImage" data-category="camera">
+          <view class="more-btn-main">
+            <image src="/pages/images/camera.png"></image>
+          </view>
+          <view>拍照</view>
+        </view>
+      </view>
+      <view class="send-more-result-main" hidden="{{chooseFiles.length==0}}">
+        <block wx:for="{{chooseFiles}}" wx:for-index="idx" wx:key="*this">
+          <view class="file-box {{deleteIndex==idx?'deleting':''}}">
+            <view class="img-box">
+              <image src="{{item}}" mode="aspectFill"></image>
+              <icon class="remove-icon" type="cancel" size="23" color="#B2B2B2" catchtap="deleteImage" data-idx="{{idx}}"></icon>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>

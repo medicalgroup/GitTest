@@ -1,0 +1,95 @@
+.getGold{
+  width: 98%;
+  height: 130px;
+  margin: 10px auto 0 auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.allGold{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.allGold view:nth-child(1){
+  border: 3px solid yellow;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+.allGold view:nth-child(2){
+  font-weight: bold;
+  height: 46px;
+  line-height: 46px;
+  margin-left: 20px;
+}
+.allGold view:nth-child(1) image{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.todayGold{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 15px;
+  
+}
+.todayGold view:nth-child(1){
+  flex: 1;
+}
+.button{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+.hr{
+  height: 5px;
+}
+.task{
+  width: 98%;
+  height: 220px;
+  margin: 5px auto 0 auto;
+  background-color: white;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+.signIn{
+  display: flex;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.circle_1,.circle_2,.circle_3,.circle_4{
+  width: 20px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.line{
+  width: 50%;
+  height: 2px;
+  background-color: gray;
+  margin: 10px 15px 0 15px;
+}
+.goldUse{
+   width: 98%;
+  height: 200px;
+  margin: 5px auto 0 auto;
+  background-color: white;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+.goldUse view{
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.title{
+  text-align: center;
+}
